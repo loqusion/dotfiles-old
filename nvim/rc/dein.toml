@@ -1,0 +1,66 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'haya14busa/dein-command.vim'
+
+# [[plugins]]
+# repo = 'sheerun/vim-polyglot'
+# hook_add = '''
+# let g:polyglot_disabled = ['markdown', 'tsx', 'typescript', 'csv']
+# let g:loaded_sleuth = 1
+# '''
+
+# #[[plugins]]
+# #repo = 'HerringtonDarkholme/yats.vim'
+
+# [[plugins]]
+# repo = 'thinca/vim-ft-diff_fold'
+
+# [[plugins]]
+# repo = 'thinca/vim-ft-help_fold'
+
+# [[plugins]]
+# repo = 'vim-jp/autofmt'
+
+# [[plugins]]
+# repo = 'kana/vim-textobj-user'
+
+# [[plugins]]
+# repo = 'kana/vim-operator-user'
+
+# [[plugins]]
+# repo = 'rcmdnk/vim-markdown'
+
+# [[plugins]]
+# repo = 'JesseKPhillips/d.vim'
+
+# [[plugins]]
+# repo = 'vim-jp/vimdoc-ja'
+
+# [[plugins]]
+# repo = 'nixprime/cpsm'
+# build = 'sh -c "PY3=ON ./install.sh"'
+
+# [[plugins]]
+# repo = 'Shirk/vim-gas'
+
+# [[plugins]]
+# repo = 'chrisbra/vim-zsh'
+
+# [[plugins]]
+# repo = 'roxma/vim-hug-neovim-rpc'
+# on_if = '!has("nvim")'
+
+# [[plugins]]
+# repo = 'roxma/nvim-yarp'
+
+# [[plugins]]
+# repo = 'tbodt/deoplete-tabnine'
+# build = './install.sh'
+
+# [[plugins]]
+# repo = 'Shougo/deoplete-nextword'
+
+# [[plugins]]
+# repo = 'vim-jp/syntax-vim-ex'

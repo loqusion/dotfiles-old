@@ -5,18 +5,13 @@ set -e
 source setup-helpers
 
 config="${XDG_CONFIG_DIR:-$HOME/.config}"
-cache="$HOME/.cache"
 
 # TODO: Make this cross-platform
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
 sudo apt install neovim
 
 mkdir -p "$config"
 
 rm "$config/nvim" >/dev/null 2>&1 || true
 ln -s "$dotfiles_dir/nvim" "$config/nvim"
-
-if [ ! -d "$cache/dein" ]; then
-  curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > "$cache/dein-installer.sh"
-  chmod +x "$cache/dein-installer.sh"
-  sh "$cache/dein-installer.sh" "$cache/dein" >/dev/null 2>&1
-fi
