@@ -306,8 +306,6 @@ set display=lastline
 " For conceal.
 set conceallevel=2 concealcursor=niv
 
-set colorcolumn=79
-
 if exists('+previewpopup')
   set previewpopup=height:10,width:60
 endif
