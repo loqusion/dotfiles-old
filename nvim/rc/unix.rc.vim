@@ -79,3 +79,4 @@ set mouse=
 
 " Colorscheme
 colorscheme solarized
+hi Normal guibg=NONE ctermbg=NONE
