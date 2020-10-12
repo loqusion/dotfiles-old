@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+source setup-helpers
+
+setup_nvim() {
+  local from="$dotfiles_dir/nvim"
+  local to="$(wslpath $(wslvar LOCALAPPDATA))/nvim"
+
+  rm -rf "$to"
+  cp -r "$from" "$to"
+}
+
+setup_nvim
+
