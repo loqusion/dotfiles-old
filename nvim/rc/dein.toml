@@ -4,12 +4,15 @@ repo = 'Shougo/dein.vim'
 [[plugins]]
 repo = 'haya14busa/dein-command.vim'
 
-# [[plugins]]
-# repo = 'sheerun/vim-polyglot'
-# hook_add = '''
-# let g:polyglot_disabled = ['markdown', 'tsx', 'typescript', 'csv']
-# let g:loaded_sleuth = 1
-# '''
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+hook_add = '''
+let g:polyglot_disabled = ['markdown', 'tsx', 'typescript', 'csv']
+let g:loaded_sleuth = 1
+'''
+
+[[plugins]]
+repo = 'kien/ctrlp.vim'
 
 # #[[plugins]]
 # #repo = 'HerringtonDarkholme/yats.vim'
