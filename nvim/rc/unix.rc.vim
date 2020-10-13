@@ -75,7 +75,7 @@ endif
 " endif
 
 " Disable the mouse.
-set mouse=
+set mouse=nvi
 
 " Colorscheme
 colorscheme solarized

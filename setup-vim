@@ -7,11 +7,17 @@ source setup-helpers
 config="${XDG_CONFIG_DIR:-$HOME/.config}"
 
 # TODO: Make this cross-platform
+# Install neovim
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt install neovim
 
 mkdir -p "$config"
 
+# TODO: Make this less dangerous
+# Link config files
 rm "$config/nvim" >/dev/null 2>&1 || true
 ln -s "$dotfiles_dir/nvim" "$config/nvim"
+
+# Install plugin deps
+sudo pip3 install --user pynvim
