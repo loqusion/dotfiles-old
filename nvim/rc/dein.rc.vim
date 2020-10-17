@@ -11,16 +11,16 @@ if !dein#load_state(s:path)
 endif
 
 let s:dein_toml = '~/.config/nvim/rc/dein.toml'
-" let s:dein_lazy_toml = '~/.config/nvim/rc/deinlazy.toml'
-" let s:dein_ft_toml = '~/.config/nvim/rc/deinft.toml'
+let s:dein_lazy_toml = '~/.config/nvim/rc/deinlazy.toml'
+"let s:dein_ft_toml = '~/.config/nvim/rc/deinft.toml'
 
 call dein#begin(s:path, [
       \ expand('<sfile>'), s:dein_toml
       \ ])
 
 call dein#load_toml(s:dein_toml, {'lazy': 0})
-" call dein#load_toml(s:dein_lazy_toml, {'lazy' : 1})
-" call dein#load_toml(s:dein_ft_toml)
+call dein#load_toml(s:dein_lazy_toml, {'lazy' : 1})
+"call dein#load_toml(s:dein_ft_toml)
 
 call dein#end()
 call dein#save_state()

@@ -14,8 +14,8 @@ let g:loaded_sleuth = 1
 [[plugins]]
 repo = 'kien/ctrlp.vim'
 
-# #[[plugins]]
-# #repo = 'HerringtonDarkholme/yats.vim'
+[[plugins]]
+repo = 'HerringtonDarkholme/yats.vim'
 
 [[plugins]]
 repo = 'thinca/vim-ft-diff_fold'
@@ -29,28 +29,19 @@ repo = 'thinca/vim-ft-diff_fold'
 # [[plugins]]
 # repo = 'kana/vim-operator-user'
 
-# [[plugins]]
-# repo = 'rcmdnk/vim-markdown'
+[[plugins]]
+repo = 'rcmdnk/vim-markdown'
 
-# [[plugins]]
-# repo = 'JesseKPhillips/d.vim'
+[[plugins]]
+repo = 'nixprime/cpsm'
+build = 'sh -c "PY3=ON ./install.sh"'
 
-# [[plugins]]
-# repo = 'vim-jp/vimdoc-ja'
+[[plugins]]
+repo = 'chrisbra/vim-zsh'
 
-# [[plugins]]
-# repo = 'nixprime/cpsm'
-# build = 'sh -c "PY3=ON ./install.sh"'
-
-# [[plugins]]
-# repo = 'Shirk/vim-gas'
-
-# [[plugins]]
-# repo = 'chrisbra/vim-zsh'
-
-# [[plugins]]
-# repo = 'roxma/vim-hug-neovim-rpc'
-# on_if = '!has("nvim")'
+[[plugins]]
+repo = 'roxma/vim-hug-neovim-rpc'
+on_if = '!has("nvim")'
 
 # [[plugins]]
 # repo = 'roxma/nvim-yarp'
@@ -62,5 +53,5 @@ repo = 'thinca/vim-ft-diff_fold'
 # [[plugins]]
 # repo = 'Shougo/deoplete-nextword'
 
-# [[plugins]]
-# repo = 'vim-jp/syntax-vim-ex'
+[[plugins]]
+repo = 'vim-jp/syntax-vim-ex'
