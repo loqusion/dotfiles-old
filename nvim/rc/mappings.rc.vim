@@ -106,12 +106,6 @@ xnoremap <expr> l foldclosed(line('.')) != -1 ? 'zogv0' : 'l'
 " Substitute.
 xnoremap s :s//g<Left><Left>
 
-" Sticky shift in English keyboard.
-" Sticky key.
-inoremap <expr> ;  vimrc#sticky_func()
-cnoremap <expr> ;  vimrc#sticky_func()
-snoremap <expr> ;  vimrc#sticky_func()
-
 " Easy escape.
 inoremap jj           <ESC>
 cnoremap <expr> j
