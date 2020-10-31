@@ -23,11 +23,11 @@ repo = 'thinca/vim-ft-diff_fold'
 # [[plugins]]
 # repo = 'vim-jp/autofmt'
 
-# [[plugins]]
-# repo = 'kana/vim-textobj-user'
+[[plugins]]
+repo = 'kana/vim-textobj-user'
 
-# [[plugins]]
-# repo = 'kana/vim-operator-user'
+[[plugins]]
+repo = 'kana/vim-operator-user'
 
 [[plugins]]
 repo = 'rcmdnk/vim-markdown'
@@ -49,9 +49,6 @@ on_if = '!has("nvim")'
 # [[plugins]]
 # repo = 'tbodt/deoplete-tabnine'
 # build = './install.sh'
-
-# [[plugins]]
-# repo = 'Shougo/deoplete-nextword'
 
 [[plugins]]
 repo = 'vim-jp/syntax-vim-ex'
